@@ -1,0 +1,121 @@
+@import url('halloween.css'); 
+
+@media screen {
+
+    header {text-align: center;
+        background-image: url(../images/lemonbars.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    body {
+        color: red;
+        font-size: 100%; 
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2em;
+    }
+
+    h2 {color: green;
+        font-style: italic;
+        font-size: 1.5em
+        background: #b7deed; 
+        background: -moz-linear-gradient(-45deg,  #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    }
+
+    header h2, 
+    #hipster h2 span {color: black}
+
+    #hipster { 
+        background-color: rgba(255, 192, 245, 0.384)         
+    }
+    #cat{ background-color: rgba(233, 255, 192, 0.411)
+    
+    }
+    #cupcake{background-color: rgba(255, 251, 192, 0.473)}
+
+    nav a:link {
+        color: navy; 
+        background-color:red;
+        border-radius: 10px;
+        margin-right: 20px;
+
+
+        
+    }
+    nav a:hover {
+        color:red;
+        background-color:white
+    }
+    nav ul li{
+        list-style: none; 
+        display: inline; 
+        border-radius: 10px;
+
+    }
+    nav a {text-decoration: none;
+        padding: 10px;
+       
+    }
+    nav {
+        
+        padding: 10px;
+
+    }
+
+    p {color: rgba(11, 82, 235, 0.979);
+        font-size: 18px;
+       
+    }
+
+    p.two {
+        color: black;
+        font: bold 15px Arial, Helvetica, sans-serif;
+    }
+    a.button{
+        display: inline;        
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #FFFFFF;
+        margin-left: 50%;
+        border-radius: 0.3em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: rgb(5, 110, 27);
+        text-align: center;        
+        transition: all 0.2s;
+        background-color: rgb(174, 219, 11)
+
+    }
+    
+    a.button:hover{
+        color: aqua;
+        background-color: rgb(236, 13, 13)
+    
+    }
+        
+    article {
+        border: black;
+        padding: 10px;
+    }
+
+    footer{
+        font-weight: bold;
+    }
+    li {
+        font-variant: small-caps;
+        color:red;
+    }
+    h1 {
+        color: blue;
+        text-align: center;
+    } 
+   
+   
+
+}
+
